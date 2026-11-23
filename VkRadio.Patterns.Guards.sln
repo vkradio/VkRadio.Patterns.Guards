@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37906.3 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkRadio.Patterns.Guards", "VkRadio.Patterns.Guards.csproj", "{019FD205-CECD-4F4A-A38B-B280BB83E79E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{019FD205-CECD-4F4A-A38B-B280BB83E79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019FD205-CECD-4F4A-A38B-B280BB83E79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019FD205-CECD-4F4A-A38B-B280BB83E79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{019FD205-CECD-4F4A-A38B-B280BB83E79E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A6194F2-BDC2-4A1E-9649-1B23753A5F0F}
+	EndGlobalSection
+EndGlobal
