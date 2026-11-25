@@ -6,4 +6,23 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageId>VkRadio.Patterns.Guards</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>vkradio</Authors>
+    <Description>Generalized implementation of Guard Clauses design pattern</Description>
+    <PackageProjectUrl>https://github.com/vkradio/VkRadio.Patterns.Guards</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/vkradio/VkRadio.Patterns.Guards</RepositoryUrl>
+    <PackageTags>patterns;guards;guard clauses</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
 </Project>
