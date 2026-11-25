@@ -248,6 +248,21 @@ public static class GuardRuleExtensions
         string message,
         [CallerArgumentExpression(nameof(input))] string? parameterName = null)
     {
+        if (func(input))
+        {
+            throw new ArgumentException(message, parameterName);
+        }
+
+        return input;
+    }
+
+    public static T Expression<T>(
+        this IAllowingGuardClause _,
+        Func<T, bool> func,
+        T input,
+        string message,
+        [CallerArgumentExpression(nameof(input))] string? parameterName = null)
+    {
         if (!func(input))
         {
             throw new ArgumentException(message, parameterName);

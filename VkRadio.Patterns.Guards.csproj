@@ -8,7 +8,7 @@
 
   <PropertyGroup>
     <PackageId>VkRadio.Patterns.Guards</PackageId>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>vkradio</Authors>
     <Description>Generalized implementation of Guard Clauses design pattern</Description>
     <PackageProjectUrl>https://github.com/vkradio/VkRadio.Patterns.Guards</PackageProjectUrl>
